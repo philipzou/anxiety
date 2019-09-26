@@ -182,29 +182,28 @@ a: Ugh, I know right?
 publish("act2",["dee",1]);
 ```
 
-s: So yeah they never replied back!
+s: 没错对方一直没回我！
 
 ```
 publish("act2",["dee",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
-
+h2: 那…那个…
 ```
 publish("act2",["party_hunter",1]);
 publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Even though you both matched each other on Tinder?
+a: 在app上配对成功了都不回？
 
 ```
 publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: 额…你们好啊…
 
 ```
 publish("act2",["party_hong","next"]);
@@ -249,9 +248,9 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! Maybe they think hookups can't fill the hole in their heart?
+s: 就是啊！完全搞不懂，难不成还指望我填补它心灵上空白吗？
 
-s: Stop being such a prude! Open your mind, then open your legs!
+s: 那么矜持干什么？*开放*一点好不好！
 
 ```
 publish("act2",["party_hunter",1]);
@@ -259,7 +258,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: 额，可不是嘛。
 
 (#act2-preamble-end)
 
@@ -300,13 +299,13 @@ publish("hp_show");
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-n: ROUND TWO: *FIGHT!*
+n: 第二轮 : *FIGHT!*
 
-[Oh no they all hate us!](#act2a_social)
+[他们全都讨厌我们！](#act2a_social)
 
-[Were you *ogling* the redhead?](#act2a_perv)
+[你刚才一直盯着红头发的来着？](#act2a_perv)
 
-[Hey, let's talk about the meaning of life.](#act2a_meaning)
+[要不，我们来探讨人生吧。](#act2a_meaning)
 
 # act2a_social
 
@@ -354,31 +353,31 @@ _.a2_attack_1 = "bad";
 
 `bb({body:"one_up", eyes:"normal_r"})`
 
-b: At the end of it all, what can we possibly do that really matters? 
+b: 归根到底，我们到底能做点什么有价值的事呢？
 
 `bb({body:"normal", eyes:"sad"})`
 
-b: Contribute to humanity? All great works decay the way of Ozymandias. Love? Death will always do it part.
+b: 对人类社会作贡献吗？可是不管完成什么伟业总免不了尽归尘土。爱情？再伟大的爱情也难逃生死两隔。
 
 `bb({eyes:"sad_r"})`
 
-b: And how much death there is! *We* will die. *Our loved ones* will die.
+b: 死亡真的是无处不在。*我们*会死，*我们的亲人*也会死。
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Heck, the Second Law of Thermodynamics means even our *universe* will die!
+b: 哦对了！热力学第二定律证明了就算是我们的*宇宙*也终将消亡！
 
 `bb({eyes:"suspect", body:"normal"})`
 
-b: Oh, "death makes us appreciate life"? That's like saying slavery is good because it makes us appreciate freedom!
+b: 哦, “死亡才使得生命有价值”？这就好比说奴隶制是有价值的因为它体现出了自由的价值！
 
 `bb({body:"one_up"})`
 
-b: Oh, "you need to make your own meaning"? That's what cultists and conspiracy theorists do!
+b: 哦,“你需要追寻自己人生的价值”？这是邪教和搞阴谋论的那群人玩的那一套！
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Life has no meaning, death has no meaning, even *meaning* has no meaning! What is a mortal soul supposed to--
+b: 生命没有意义，死亡没有意义，甚至*意义*本身也没有意义！凡人的灵魂就应该-
 
 ```
 _.a2_first_danger = 'meaning';
@@ -391,35 +390,35 @@ _.a2_attack_1 = "bad";
 
 `bb({eyes:"normal", mouth:"normal", body:"normal", MOUTH_LOCK:true})`
 
-b: ...
+b: …
 
 `bb({eyes:"suspect"})`
 
-b: Um... can you hear me, human?
+b: emmm……你还听得到吗？
 
 `bb({eyes:"normal", MOUTH_LOCK:true})`
 
-b: ...
+b: …
 
 `bb({eyes:"shock", mouth:"small_talk", body:"chest", MOUTH_LOCK:true})`
 
-b: *GASP*
+b: *大吸一口气*
 
 `bb({mouth:"small_talk"})`
 
-b: I MUST WARN YOU ABOUT...
+b: **我必须警告你…**
 
-[*More* of the same danger!](#act2b_louder)
+[类似的危险*还有很多*！](#act2b_louder)
 
 {{if _.a2_first_danger=="social"}}
-[A *different* social danger!](#act2b_different_social)
+[*另一种不同的*社交危险](#act2b_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[A *different* moral danger!](#act2b_different_moral)
+[*另一种不同的*道德危险](#act2b_different_moral)
 {{/if}}
 
-[You're ignoring danger! That's dangerous!](#act2b_ignore)
+[你正在无视危险！这本身就是危险！](#act2b_ignore)
 
 # act2b_louder
 
@@ -592,15 +591,15 @@ _.a2_hoodie_callback = "Hitler";
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"})`
 
-b: You think you're safe just because you took the batteries out of the carbon monoxide detector?
+b: 你觉得你把一氧化碳警报器的电池拆了就安全了吗？
 
 `bb({eyes:"suspect_r"})`
 
-b: You won't even smell the poison! You'll just get sleepy and then you'll--
+b: 不会！你连异常的气味都闻不到！你只会觉得犯困然后你就会--
 
 `bb({body:"scream_c_1"})`
 
-b: DIEEEEEEEEEEEEEEEEEE
+b: **死！！！！！！**
 
 ```
 _.a2_second_danger = 'ignore';
@@ -617,33 +616,33 @@ hong({body:"ignore_sweat"});
 bb({eyes:"normal", mouth:"normal", body:"normal", MOUTH_LOCK:true});
 ```
 
-b: ...
+b: …
 
 `bb({eyes:"happy", mouth:"smile", body:"chest"})`
 
-b: Oh thank goodness human, I think you can hear me again!
+b: 哦谢天谢地，你应该是能听见我了。
 
 `bb({eyes:"closed", body:"point"})`
 
-b: I SHALL WARN YOU ABOUT...
+b: **接下来我会提醒你注意……**
 
 {{if _.a2_first_choice=="louder"}}
-[*Even more* of the same danger!](#act2c_louder)
+[*还有更多*类似的危机！](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_choice!="louder"}}
-[*More* of the same danger!](#act2c_louder)
+[类似的危险*还有很多*！](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_danger=="social"}}
-[A *different* social danger!](#act2c_different_social)
+[*另一种不同的*社交危险](#act2c_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[A *different* moral danger!](#act2c_different_moral)
+[*另一种不同的*道德危险](#act2c_different_moral)
 {{/if}}
 
-[Did you check that punch before drinking?](#act2c_punch)
+[你喝那杯东西之前检查过了吗？](#act2c_punch)
 
 #act2c_louder
 
@@ -798,15 +797,15 @@ b: *Now our plans can go fourth, reich on schedule!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal_r"})`
 
-b: Come to think about it, do we know if this building *has* a monoxide detector?!
+b: 就好比说，我们现在所在的这个地方*到底有没有*一氧化碳报警器？
 
 `bb({body:"two_up", mouth:"small", eyes:"normal"})`
 
-b: What if we're all being poisoned *RIGHT NOW?*
+b: 万一我们***现在就在***呼吸毒气怎么办？
 
 `bb({body:"scream_a_1"})`
 
-b: WE WOULDN'T EVEN SEE DEATH APPROACH. WE'D JUST STOP EXISTING FOREVER AND EVER AND EV--
+b: **我们甚至都没法遇见死亡将至！我们马上就会永远离开我们的世界！永远永远永--**
 
 `_.a2_attack_3 = "harm";`
 
@@ -898,48 +897,48 @@ attack("20p", _.a2_attack_3);
 
 (...1001)
 
-h: F^AAACK^!
+h: 我^操^!
 
 h: F^ACK^ING F^ACK^-F^AKK^ITY *F^AAAAACK^*
 
 `bb({body:"two_up", mouth:"smile", eyes:"happy"});`
 
-b: Yay, human! I'm so happy you can hear me again!
+b: 好诶！你终于听到我说什么了！
 
 `bb({body:"normal", mouth:"small", eyes:"sad"})`
 
-b: Why were you ignoring me?
+b: 所以你为什么之前无视我
 
 `hong({body:"facepalm"})`
 
-h: Holy ^hell^, you absolute moron.
+h: 你个 ^傻逼^, 傻到家了.
 
 `hong({body:"facepalm_2"})`
 
-h: You know that Native American story?
+h: 你知道美国土著有个说法吗？
 
-h: "There are two wolves inside you, one is hope, one is despair, which wolf wins? The one you feed."
+h: “你的心里有两只狼，一只是希望，一只是绝望，哪只狼获胜呢？自然是你一直喂的那只狼。”
 
 ```
 hong({body:"facepalm_3"});
 bb({eyes:"normal"});
 ```
 
-h: I was trying to *starve* you, you sadistic ^asshole^!
+h: 所以我是在*饿死*你，你个^混蛋^！
 
 `hong({body:"smile", mouth:"smile"})`
 
-h: Screw it, I'll do positive affirmations instead.
+h: 不管了，我要开始自我暗示鼓励自己了。
 
-h: *I am loved. I am good. I am smart. I am beautiful. I am special.*
+h: *我有人爱。我是个好人。我很聪明。我很好看。我是有价值的。*
 
 `bb({eyes:"suspect"});`
 
-[Golly, that's so narcissistic!](#act2d_narcissist)
+[你太自恋了我的宝贝](#act2d_narcissist)
 
-[Y'know affirmations were *disproven?*](#act2d_disproven)
+[*没有证据*表明自我暗示有用](#act2d_disproven)
 
-[omg don't credit random stories to indigenous folk](#act2d_racist)
+[得了吧你喝个心灵鸡汤还得找个土著厨子](#act2d_racist)
 
 # act2d_disproven
 
@@ -1005,15 +1004,15 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"})`
 
-b: Native Americans are *actual people*, not some "noble savages" you can namedrop to make your fortune-cookie advice more *exotic*.
+b: 美国土著是*实际存在*的人，不是让你化妆品广告更*高大上*的什么*国际友人*。
 
 `bb({eyes:"suspect_r"})`
 
-b: You're reducing individual persons & complex cultures to a Hallmark card! That's "benevolent racism"! 
+b: 你正在把独立的个体和复杂的文化符号化为鸡汤的作料！这是友善的种族歧视！
 
 `bb({body:"scream_b_1"})`
 
-b: STOP BEING RACIST YOU SQUINTY-EYED JERK
+b: **别把外国人看扁了你这斜眼看人的家伙！**
 
 ```
 hong({body:"attacked"});
@@ -1027,35 +1026,35 @@ attack("10p", "bad");
 
 # act2e
 
-h: ^ASSDAMMIT^.
+h: ^*你个傻逼*^.
 
 `hong({body:"yell", mouth:"yell"})`
 
-h: You know what? You're *irrational*.
+h: 跟你讲，你真是*毫不讲理*。
 
-h: Everyone knows emotions are irrational! Especially fear!
+h: 人们都知道情绪是不可理喻的！尤其是恐惧！
 
 `hong({body:"facepalm_2"})`
 
-h: You're a useless evolutionary leftover, like my appendix or wisdom teeth!
+h: 你就是进化不完全的遗留，就好比我的阑尾或是智齿！
 
 `hong({body:"yell", mouth:"yell"})`
 
-h: ^Hell^, this whole wolf metaphor is stupid! You're just a bunch of neuro-chemicals in my head.
+h: ^操^,其实狼的那个比喻整个都很蠢！你其实就是我脑子里的一堆化学物质！
 
 `hong({body:"cross", mouth:"cross"})`
 
-h: So why should I listen to a worthless, irrational, non-existent piece of ^shit^ like you?!
+h: 我何必要听你这种毫无价值不可理喻甚至说根本不存在的^狗逼^在这一直^叨叨^。
 
 `bb({eyes:"sad", MOUTH_LOCK:true})`
 
-b: ...
+b: …
 
-[Jeez, human. That's really hurtful.](#act2e_hurtful)
+[诶，人类，你这话很伤人啊](#act2e_hurtful)
 
-[I'm a feeling. Feelings are valid.](#act2e_valid)
+[我是一种感受，感受是客观存在的。](#act2e_valid)
 
-[Human, we're *both* "just chemicals."](#act2e_rational)
+[人类，其实*你也是*一堆化学物质](#act2e_rational)
 
 # act2e_hurtful
 
@@ -1082,23 +1081,23 @@ attack("10p", "harm");
 
 `bb({body:"normal", mouth:"normal", eyes:"normal_r"});`
 
-b: Your deepest motivations are dopamine, your richest joys are serotonin.
+b: 你最底层的动力是多巴胺，最欢喜的愉悦是血清素。
 
 `bb({body:"one_up"});`
 
-b: Your memories are synaptic weights, your reason is fault-prone electrical signals.
+b: 你的记忆是神经的突出，你的理智是会出错的电信号。
 
 `bb({eyes:"normal", body:"normal"});`
 
-b: So if me being "just chemicals" means *I'm* irrational... then that means *you're* irrational!
+b: 所以如果我*是一堆化合物*就意味着我*不可理喻*…那么这就是说*你自己*就不可理喻！
 
 `bb({body:"two_up", eyes:"shock"});`
 
-b: And if we're *both* irrational, then we'll *never* figure out how to be fulfilled and happy!
+b: 那么如果我们两个*都*不可理喻，那去讨论如何实现满足快乐完全就是*无稽之谈*。
 
 `bb({body:"scream_a_1"})`
 
-b: AHHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKEN--
+b: 啊啊啊我们整个都坏掉了！坏的透透-
 
 ```
 music(null);
@@ -1144,64 +1143,64 @@ attack("10p", "harm");
 
 `hong({body:"defeated", MOUTH_LOCK:true});`
 
-h: ...
+h: ……
 
-h: I hate this. God it hurts so much I *hate* this.
+h: 我讨厌这个，我真的非常*讨厌*这个。
 
-h: I can't appease you. I can't ignore you. I can't fight you. 
+h: 我不能安抚你，我不能忽略你，我还没法打你。
 
 `bb({eyes:"suspect"});`
 
-h: No matter what I do, I can't seem to get rid of yo--
+h: 不管我做什么，我似乎都无法摆脱—
 
 `bb({body:"cry_1"});`
 
-b: Well maybe you're NOT *SUPPOSED* TO GET RID OF ME.
+b: 应该是你本来就*不应该*摆脱我！
 
 `bb({body:"cry_2"});`
 
-b: How do you think *I* feel, human?!
+b: 你知道*我*是怎么想的吗？人类？
 
 `bb({body:"cry_4", mouth:"cry", eyes:"cry"})`
 
-b: I'm trying my best to be your guard-dog, but you keep seeing me as some Big Bad Wolf!
+b: 我正在尽我最大的努力成为你的警犬，但是你一直把我看作是“大灰狼”！
 
-b: So I try even *harder* to alert you to danger! *More* danger! *Different* danger!
+b: 所以我才*努力*为你警示危险！*各种*危险！*各样*的危险！
 
 `bb({eyes:"cry_2"})`
 
-b: But no matter how hard I try to protect you, you *still* think I'm your enemy!
+b: 但是我不管多么努力去保护你，你*始终*把我当成你的敌人。
 
 `bb({body:"cry_5"});`
 
-b: What am I doing wrong?!
+b: 我到底做错了什么？！
 
 `bb({body:"cry_2"});`
 
-b: I *know* I suck at my job. But I'm *trying*, human!
+b: 我*知道*我做的不好，但是*确实*在试着做了！人类！
 
 `bb({body:"cry_3"});`
 
-b: ...I'm trying.
+b: …我真的*努力*了。
 
 `bb({body:"cry_6", mouth:"right", eyes:"cry_r_1"});`
 
-b: You don't have to heed my warnings, or agree with me, or even *like* me.
+b: 你可以不听我的警告，也可以不同意我的观点，甚至都不必*友善*以待。
 
 `bb({eyes:"cry_r_2"});`
 
-b: I just... all I want is for you to be patient with me.
+b: 我只是……我只想要你能对我有点耐心。
 
 `bb({eyes:"cry_r_3"});`
 
-b: I just want for you to sit with me for a while, instead of turning away and--
+b: 我只是想要你能坐下来陪我一会，而不是扭头就—
 
 ```
 bb({eyes:"cry_r_4"});
 hong({body:"listen"});
 ```
 
-r: Hey.
+r: 嘿。
 
 ```
 hong({body:"look"});
@@ -1218,21 +1217,21 @@ publish("act2",["party_hunter",2]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: Looks like you're caught in a fight with yourself, kid.
+r: 你好像是在和自己吵架？小家伙？
 
 ```
 publish("act2",["party_hunter",3]);
 publish("act2",["party_hong",13]);
 ```
 
-h2: Was it that obvious?
+h2: 有那么明显吗？
 
 ```
 publish("act2",["party_hunter",4]);
 publish("act2",["party_hong",14]);
 ```
 
-r: You were, uh, mumbling at your hoodie about {{_.a2_hoodie_callback}} or something.
+r: 你刚刚…呃…好像在对着你的帽子抱怨{{_.a2_hoodie_callback}}什么的来着。
 
 ```
 publish("act2",["party_hunter",13]);
@@ -1248,7 +1247,7 @@ setTimeout(function(){
 },801);
 ```
 
-h2: oh god i'm such a mess.
+h2: 啊天我现在有点乱。
 
 ```
 publish("act2",["party_hunter",7]);
@@ -1256,7 +1255,7 @@ publish("act2",["party_hong",18]);
 sfx("squeak");
 ```
 
-r: Hey. You're not alone, friend. Anxiety's super common.
+r: 没事，你这情况很常见的，焦虑现在到处都是。
 
 ```
 publish("act2",["party_hunter",5]);
@@ -1264,38 +1263,38 @@ publish("act2",["party_hong",19]);
 ```
 
 {{if _.act1_ending=="fight"}}
-r: Heck, just yesterday, I heard someone on campus had a nervous breakdown and smashed their phone!
+r: 靠，就在昨天，我听说有个人在学校奔溃了，还砸了手机！
 {{/if}}
 
 {{if _.act1_ending=="flight"}}
-r: Heck, just yesterday, I heard someone curled up into an armadillo ball and cried in public!
+r: 靠，就在昨天，我听说有个人在外面一边哭一边还怂的像个刺猬一样，缩成了球！
 {{/if}}
 
 ```
 publish("act2",["party_hunter",2]);
 ```
 
-r: Listen: I know what it's like to have that animal in your head.
+r: 听着，我知道把负能量囤在脑子里是什么感觉。
 
 ```
 publish("act2",["party_hunter",8]);
 ```
 
-r: We *all* do. That's why I throw these parties every weekend, to forget our worries, forget that animal.
+r: 我们都知道，所以我们才每周都搞这么一次聚会，这样就可以忘记那些不愉快，忘记负能量。
 
 ```
 publish("act2",["party_hunter",9]);
 publish("act2",["party_hong",20]);
 ```
 
-h2: but my anxiety...
+h2: 但是我的焦虑…
 
 ```
 publish("act2",["party_hunter",2]);
 publish("act2",["party_hong",21]);
 ```
 
-r: Don't worry, kid. I used to be like you. But then I found a little trick to get that negative voice to shut up forever...
+r: 不用担心，我之前跟你一样，但是后来我发现了一个方法可以让那些不好的声音闭嘴。
 
 ```
 publish("act2",["party_hunter",3]);
@@ -1325,14 +1324,14 @@ sfx("rustle2");
 publish("act2",["party_hunter",11]);
 ```
 
-r: My own specialty blend. It's a bit stronger than... well, anything legal really.
+r: 这是我独门秘方，劲道应该……比市面上的货色足得多。
 
 ```
 publish("act2",["party_hunter",12]);
 publish("act2",["party_hong",24]);
 ```
 
-r: Bottoms up, ^bee-yatch^!
+r: 记得喝光哦, ^小 婊 砸^!
 
 ```
 hong({body:"hold"});
@@ -1345,27 +1344,27 @@ publish("hp_show");
 
 (...3500)
 
-[Oh my God.](#act2g_1) `Game.OVERRIDE_CHOICE_LINE=true`
+[我的天](#act2g_1) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[This is a bad coping mechanism.](#act2g_2) `Game.OVERRIDE_CHOICE_LINE=true`
+[这不是个好的解决办法](#act2g_2) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Don't take drinks from strangers.](#act2g_3) `Game.OVERRIDE_CHOICE_LINE=true`
+[别喝陌生人的饮料](#act2g_3) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2g_1
 
-b: O--
+b: 我—
 
 (#act2g)
 
 # act2g_2
 
-b: T--
+b: 这—
 
 (#act2g)
 
 # act2g_3
 
-b: D--
+b: 别—
 
 (#act2g)
 
@@ -1384,34 +1383,34 @@ hong({body:"forward", mouth:"forward"});
 bb({body:"frazzled", mouth:"frazzled", eyes:"frazzled"});
 ```
 
-h: Mmm, what an exquisite palette!
+h: 嗯，这个调味层次很足。
 
-h: A full-bodied flavor of "shut your mind up," with a subtle aftertaste of "never feel anything ever again"!
+h: 丰满的“心如止水”的口味结合“放空心绪”的余韵！
 
-b: This is bad, human. This is really, really bad.
+b: 这不是个好东西，人类，*绝对*不是。
 
-[This is *actually* how addiction starts.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
+[这*就是*上瘾的第一步](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[I *knew* the host was deeply messed up!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
+[我*就*知道这里乱七八糟的](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Also, they could have drugged that!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
+[而且，他们可能在里面下药了](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
 
 
 # act2h_opt1
 
-b: This is *actu*--
+b: 这*就是*—
 
 (#act2h)
 
 # act2h_opt2
 
-b: Also, they co--
+b: 而且，他们可—
 
 (#act2h)
 
 # act2h_opt3
 
-b: I *knew* th--
+b: 我*就*知道这—
 
 (#act2h)
 
@@ -1430,17 +1429,17 @@ hong({body:"back", mouth:"back"});
 bb({body:"panicked", mouth:"panicked", eyes:"panicked"});
 ```
 
-h: Delicious, *and* cheaper than therapy!
+h: 好喝的很，*而且*比治疗便宜多了！
 
-b: HUMAN PLEASE STOP
+b: **求求你停一停**
 
-h: Hehehe!
+h: 呵呵呵！
 
-h: And what are *you* gonna do about it, ^asshole^?
+h: 可是*你*又能拿我怎样？^混蛋^！
 
-b: I'm so sorry, human.
+b: 我很抱歉，人类
 
-b: I'm going to have to use my SPECIAL ATTACK
+b: 这种情况下我不得不使用我的**特别攻击**了
 
 ```
 bb({body:"special_a"});
@@ -1467,9 +1466,9 @@ hong({body:"forward", mouth:"forward"});
 sfx("charging");
 ```
 
-h: What's this ^crap^?
+h: 这^你妈^是什么？
 
-h: You're gonna yap more stupid *words* at me to--
+h: 是不是又要开始无尽的垃圾话—
 
 ```
 bb({body:"special_c"});
@@ -1505,12 +1504,12 @@ setTimeout(function(){
 
 (...2500)
 
-h: WHAT THE ^HELL^ WAS THAT
+h: **^我勒个操^那是什么鬼!**
 
-b: I'm sorry. I needed to show you the consequences.
+b: 对不起。我需要告诉你后果。
 
 {{if _.SPECIAL_ATTACK=="harm"}}
-h: I COULD *SEE* MY OWN CORPSE. I COULD *FEEL* THE SENSATION OF BEING ACTUALLY DEAD.
+h: 我都*看*见我的尸体了！我都*感觉到*死去是什么感受了！
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="alone"}}
@@ -1521,29 +1520,29 @@ h: I COULD *SEE* EVERYONE'S LOOK OF DISGUST. I COULD *HEAR* ALL THE THINGS THEY 
 h: I COULD *HEAR* THE CRUNCHING OF RIBS. I COULD *TASTE* THE BLOOD IN THE AIR.
 {{/if}}
 
-b: I'm sorry, human.
+b: 对不起，人类。
 
 n: *FINISH THEM*
 
-[{FIGHT: Punch the host.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
+[{使用攻击:一拳入魂}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{FLIGHT: Let's get out of here.}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
+[{使用攻击:走为上计}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2j_fight
 
 `bb({ eyes:"angry" });`
 
-b: That psychopath was taking advantage of you.
+b: 那个精神病正在利用你
 
-b: They were trying to corrupt you, make you as messed up as they are!
+b: 他们在败坏你，让你和他们一样乱！
 
 `bb({ body:"yell_angry_1" });`
 
-b: Punch that jerk! Knock their friggin' lights out!
+b: 给那个家伙来一拳！打到他眼冒金星！
 
 `bb({ body:"final_1" });`
 
-b: PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THE--
+b: 揍他揍他揍他揍他揍他揍他揍他揍--
 
 `_.a2_ending = "fight";`
 
@@ -1588,7 +1587,7 @@ publish("act2",["party_hunter",14]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: You alright, kid?
+r: 你没事吧？
 
 `publish("act2",["party_hunter",13]);`
 
@@ -1620,7 +1619,8 @@ publish("act2",["dee",6]);
 publish("act2",["dum",6]);
 ```
 
-r: Y-you...
+r: 你…你………
+
 
 ```
 publish("act2",["party_hunter",23]);
@@ -1630,22 +1630,22 @@ publish("act2",["dum",5]);
 music('party1', {volume:0.6, fade:6});
 ```
 
-r: are *kinky*.
+r: 有够*骚*的
 
-r: I like that. Come to my party next weekend, cutie.
+r: 你这样我喜欢，下周聚会还要来啊，小可爱。
 
 ```
 publish("act2",["party_hunter",19]);
 publish("act2",["party_hong",36]);
 ```
 
-h2: ok bye, ciao, adios, au revoir
+h2: 再见, ciao, adios, au revoir
 
-r: The animal might have won today, but come back, and I'll mix something even stronger for you!
+r: 你今天可能负能量暂时赢了，不过记得下次再来，我会给你准备更猛的哦！
 
-h2: sayōnara, auf wiedersehen, zài jiàn, shalom
+h2: sayōnara, auf wiedersehen,bye,shalom
 
-r: You and me, kid, we'll show that beast who's boss!
+r: 我们俩一起，可能能让负能量知道谁才是管事的！
 
 (#act2k_end)
 
@@ -1692,13 +1692,13 @@ sfx("whoosh");
 
 (...1000)
 
-b: Human! Are you okay?!
+b: 人类！你还好吗！
 
 ```
 publish("act2", ["act2_end","next"]);
 ```
 
-b: Gosh, that was *close.* We really could've--
+b: （吸气）刚刚好*险*，我们本来可以—
 
 ```
 Game.clearText();
@@ -1716,11 +1716,11 @@ sfx("hit");
 
 (...1000)
 
-h: I'm coming back to the party next weekend.
+h: 下周我还时会去聚会。
 
-h: The next time we fight, I'm not just going to *defeat* you...
+h: 下次我们再见面，就不是谁打败谁了…
 
-h: I'm going to ^fuck^ing *kill* you.
+h: 我^他妈的^要杀了你。
 
 ```
 Game.clearText();
