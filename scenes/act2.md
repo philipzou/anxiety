@@ -23,14 +23,14 @@
 publish("act2",["dee",3]);
 ```
 
-s: But did you *see* that "news story" about that horrible thing happening somewhere?
+s: 不过你们*看到*那个说可怕的事情到处都在发生的“非虚构写作”了吗？
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: 额…你们好啊…
 
 ```
 publish("act2",["party_hunter",1]);
@@ -38,14 +38,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: God I hate the news. It's all sensationalism and clickbait.
+a: 我讨厌死这种东西了，骗点击不说还过分地煽情。
 
 ```
 publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: 那…那个…
 
 ```
 publish("act2",["party_hong","next"]);
@@ -53,13 +53,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: True, but they're just following incentives. The *real* problem is people who click the clickbait.
+s: 没错，但是他们只是按照要求优化标题而已，*真正的*问题在于那些仍然还会点进去看的人。
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: Who would retweet a terrible news story, and make all their friends feel bad?
+s: 怎么可能会有人转发这种可怕的东西，不怕别人也感觉很糟吗？
 
 ```
 publish("act2",["party_hunter",1]);
@@ -67,7 +67,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: 额，可不是嘛。
 
 (#act2-preamble-end)
 
@@ -85,7 +85,7 @@ publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: 额…你们好啊…
 
 ```
 publish("act2",["party_hunter",1]);
@@ -100,7 +100,7 @@ publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: 那…那个…
 
 ```
 publish("act2",["party_hong","next"]);
@@ -116,7 +116,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: 额，可不是嘛。
 
 (#act2-preamble-end)
 
@@ -127,14 +127,14 @@ a: Ugh, I know right?
 publish("act2",["dee",3]);
 ```
 
-s: Like I was saying, the Meme Industrial Complex exploits cats.
+s: 就像我之前说的一样，现在的玩梗文化实际上是在消费猫咪。
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: 额…你们好啊…
 
 ```
 publish("act2",["party_hunter",1]);
@@ -142,14 +142,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Elaborate on this thesis.
+a: 此话怎讲？
 
 ```
 publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: 那…那个…
 
 ```
 publish("act2",["party_hong","next"]);
@@ -157,13 +157,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: Well, I saw someone retweet a GIF of a cat drinking milk yesterday.
+s: 是这样，昨天我看到有人转发了小猫喝奶的动图。
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: They can't digest that ^crap^! Who would retweet *animal abuse* like that?
+s: ^那货^它根本消化不了啊！怎么会有人转发这种虐待动物的东西！
 
 ```
 publish("act2",["party_hunter",1]);
@@ -171,7 +171,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: 额，可不是嘛。
 
 (#act2-preamble-end)
 
@@ -189,7 +189,7 @@ publish("act2",["dee",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: 那…那个…
+h2: 额…你们好啊…
 ```
 publish("act2",["party_hunter",1]);
 publish("act2",["party_hong","next"]);
@@ -203,7 +203,7 @@ publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: 额…你们好啊…
+h2: 那…那个…
 
 ```
 publish("act2",["party_hong","next"]);
@@ -236,7 +236,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: 额，可不是嘛。
 
 (#act2-preamble-end)
 
@@ -311,15 +311,15 @@ n: 第二轮 : *FIGHT!*
 
 `bb({eyes:"sad"})`
 
-b: We're bringing down the mood of this party by being such a sad lump!
+b: 我们尴尬的杵在这里正在破坏聚会的气氛！
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: We're killing the good vibes! We're committing first-degree vibe-murder!
+b: 我们正在消灭那些好的氛围！我们正在谋杀！
 
 `bb({eyes:"normal", body:"normal"})`
 
-b: Human, we have to leave *now* before--
+b: 我们需要马上就走！*马上*！
 
 ```
 _.a2_first_danger = 'social';
@@ -332,7 +332,7 @@ _.a2_attack_1 = "alone";
 
 `bb({eyes:"suspect"})`
 
-b: They're more attractive than us, which means if we even *look* at them, then--
+b: 他们比我们更有吸引力，所以我们只要*看*他们，那么—
 
 `bb({eyes:"shock", body:"two_up"})`
 
@@ -402,7 +402,7 @@ b: …
 
 `bb({eyes:"shock", mouth:"small_talk", body:"chest", MOUTH_LOCK:true})`
 
-b: *大吸一口气*
+b: *（大吸一口气（*
 
 `bb({mouth:"small_talk"})`
 
@@ -440,18 +440,18 @@ b: **我必须警告你…**
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: EMOTIONS ARE CONTAGIOUS! SO IF YOU DON'T LEAVE YOU'LL INFECT EVERYONE WITH YOUR MENTAL ILLNESS! 
+b: **情绪会传染！如果你现在不走的话你会把你的负能量弄得到处都是！**
 
-b: You'll create a deadly outbreak of SAD LUMP SYNDROME
+b: 你要是再不走的话所有人都会被你的尴尬弄得尴尬！
 
 `bb({eyes:"suspect", body:"normal", mouth:"normal"})`
 
-b: We need to get out of here and quarantine ourselves forever in a small room with Netflix and food delivery!
+b: 我们需要离开这里，然后找一个与世隔绝的小房间打开B站吃外卖。
 
 ```
 _.a2_second_danger = 'netflix';
 _.a2_attack_2 = "alone";
-_.a2_hoodie_callback = "a quarantine";
+_.a2_hoodie_callback = "与世隔绝";
 ```
 
 (#act2c)
@@ -494,7 +494,7 @@ b: "A BIG DISGUSTING TRASH PERVERT"
 ```
 _.a2_second_danger = 'law';
 _.a2_attack_2 = "bad";
-_.a2_hoodie_callback = "the law";
+_.a2_hoodie_callback = "法律";
 ```
 
 (#act2c)
@@ -524,7 +524,7 @@ b: IT'S THE BUTTERFLY EFFECT, HUMAN! HOW MANY PEOPLE ARE YOU ACCIDENTALLY KILLIN
 ```
 _.a2_second_danger = 'butterfly';
 _.a2_attack_2 = "bad";
-_.a2_hoodie_callback = "World War I";
+_.a2_hoodie_callback = "一战";
 ```
 
 (#act2c)
@@ -535,24 +535,24 @@ _.a2_hoodie_callback = "World War I";
 
 `bb({eyes:"normal_r", body:"point", mouth:"normal"})`
 
-b: Actually, you know what's worse than no-one liking you? *Everyone* liking you.
+b: 你知不知道，比没人喜欢你更糟的是什么吗？是*所有人*都喜欢你！
 
 `bb({body:"one_up", eyes:"suspect", mouth:"normal"})`
 
-b: That is, becoming one of *these* pleasure-chasing party animals.
+b: 也就是说，成为*他们这群*派对动物的一员！
 
 `bb({body:"normal", mouth:"small"})`
 
-b: A shallow life with shallow friends who only know the shallow you!
+b: 轻浮的朋友围绕在在轻浮的你，这就是轻浮的生活！
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: Human, we need to run away from these pleasure-zombies before they turn us into one of them!
+b: 人类！我们需要在他们把我们拉进去之前摆脱这些快乐的僵尸！
 
 ```
 _.a2_second_danger = 'zombies';
 _.a2_attack_2 = "alone";
-_.a2_hoodie_callback = "zombies";
+_.a2_hoodie_callback = "僵尸";
 ```
 
 (#act2c)
@@ -580,7 +580,7 @@ b: BY PARTYING, WE'RE HELPING *HITLER*.
 ```
 _.a2_second_danger = 'hitler';
 _.a2_attack_2 = "bad";
-_.a2_hoodie_callback = "Hitler";
+_.a2_hoodie_callback = "希特勒";
 ```
 
 (#act2c)
@@ -604,7 +604,7 @@ b: **死！！！！！！**
 ```
 _.a2_second_danger = 'ignore';
 _.a2_attack_2 = "harm";
-_.a2_hoodie_callback = "carbon monoxide";
+_.a2_hoodie_callback = "一氧化碳";
 ```
 
 (#act2c)
@@ -674,19 +674,19 @@ b: **接下来我会提醒你注意……**
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
-b: Actually, Netflix & food delivery isn't quarantined enough! We'd still infect the delivery person!
+b: 实际上，就算是这样也有负能量泄露的危险！我们有可能会传染外卖小哥！
 
 `bb({body:"one_up", mouth:"small"})`
 
-b: We need to move to the Canadian Yukon territories, and have our food delivered by drone!
+b: 我们需要搬家到去内蒙！然后靠无人机收外卖！
 
 `bb({body:"two_up", mouth:"normal"})`
 
-b: And then they'd have to sterilize the drone to rid it of our SAD LUMP GERMS
+b: 而且他们还需要对无人机做净化防止负能量沾染！
 
 `_.a2_attack_3 = "alone";`
 
-`_.a2_hoodie_callback = "a quarantine";`
+`_.a2_hoodie_callback = "与世隔绝";`
 
 (#act2d)
 
@@ -725,7 +725,7 @@ b: because they're a BIG DISGUSTING TRASH PERVERT
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "the law";`
+`_.a2_hoodie_callback = "法律";`
 
 (#act2d)
 
@@ -749,7 +749,7 @@ b: BAM, YOU BANKRUPT OUR HEALTHCARE SYSTEM AND MILLIONS DIE
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "the butterfly effect";`
+`_.a2_hoodie_callback = "蝴蝶效应";`
 
 (#act2d)
 
@@ -769,7 +769,7 @@ b: Then they'll BITE YOU and turn you into a BRAINLESS BRO and/or THOUGHTLESS TH
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "zombies";`
+`_.a2_hoodie_callback = "僵尸";`
 
 (#act2d)
 
@@ -789,7 +789,7 @@ b: *Now our plans can go fourth, reich on schedule!*
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "Hitler";`
+`_.a2_hoodie_callback = "希特勒";`
 
 (#act2d)
 
@@ -809,7 +809,7 @@ b: **我们甚至都没法遇见死亡将至！我们马上就会永远离开我
 
 `_.a2_attack_3 = "harm";`
 
-`_.a2_hoodie_callback = "carbon monoxide";`
+`_.a2_hoodie_callback = "一氧化碳";`
 
 (#act2d)
 
@@ -817,15 +817,15 @@ b: **我们甚至都没法遇见死亡将至！我们马上就会永远离开我
 
 `bb({body:"normal", mouth:"normal", eyes:"sad"})`
 
-b: What if we're just *fundamentally incapable* of ever being loved, or loving another?
+b: 万一我们*根本没有能力*去被爱或者爱上别人怎么办？
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: What if something irreversibly broke inside of us a long time ago? Or never existed in us in the first place?
+b: 要是我们的内心在很久之前就已经坏掉了，甚至是从一开始就不存在怎么办？
 
 `bb({body:"scream_a_1"})`
 
-b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
+b: 啊啊啊我们整个都坏掉了！坏的透透-
 
 `_.a2_attack_3 = "alone";`
 
@@ -911,7 +911,7 @@ b: 所以你为什么之前无视我
 
 `hong({body:"facepalm"})`
 
-h: 你个 ^傻逼^, 傻到家了.
+h: 你个^傻逼^, 傻到家了.
 
 `hong({body:"facepalm_2"})`
 
@@ -944,23 +944,23 @@ h: *我有人爱。我是个好人。我很聪明。我很好看。我是有价�
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: In fact, they actually *backfire* for people with low self-esteem! 
+b: 实际上，它们实际上对自卑的人*适得其反*！
 
 `bb({body:"one_up", mouth:"small", eyes:"normal"})`
 
-b: It was a well-designed study – randomized controlled trial, experimenter was blinded as to who was in which group.
+b: 而且这是个有实验证明的事实！而且是精心设计的随机双盲对照实验！
 
 `bb({body:"two_up", mouth:"small", eyes:"normal_r"})`
 
-b: Results: if you already had low self-esteem, being asked to repeat affirmations makes you feel *worse* than if you'd said nothing at all!
+b: 结论：在自尊缺失的情况下，那么比起什么都不做，被要求重复确认自我暗示会让人感觉*更糟*！
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: Wood 2009, Psychological Science. Look it up on Google Scholar, human,
+b: Wood 2009，心理科学。你不信可以去知网搜，人类。
 
 `bb({body:"scream_b_1"})`
 
-b: THEN STOP SPREADING UNSCIENTIFIC FAKE NEWS
+b: **所以不要在散播谣言了**
 
 ```
 hong({body:"attacked"});
@@ -976,19 +976,19 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: You *need* to humbly see your own flaws in order to grow as a person!
+b: 你*需要*谦虚地看到自己的缺点才能学会做人！
 
 `bb({body:"two_up", eyes:"suspect"})`
 
-b: You can't spray air freshener over a moldy room! Covering up your flaws makes you worse in the long run.
+b: 你不能在已经发霉的屋子里在去放空气清新剂！长远来看掩盖缺点会让缺陷变得更糟！
 
 `bb({body:"chest", mouth:"smile", eyes:"closed"})`
 
-b: Thankfully, I, as your loyal guard-wolf, can alert you to your flaws. And right now, it's-
+b: 庆幸的是，我，作为你的守护者，可以为你提供警示。你现在身上的缺点—
 
 `bb({body:"scream_b_1"})`
 
-b: EVERYTHING. EVERYTHING IS WRONG
+b: **到处都是！没有一块好地方！**
 
 ```
 hong({body:"attacked"});
@@ -1060,11 +1060,11 @@ b: …
 
 `bb({body:"chest"})`
 
-b: I'm *part* of you, you know. When you say that, you're hurting *yourself*.
+b: 我是你的*一部分*，也就是，你这么说的话，实际上是在*伤害你自己*。
 
 `bb({body:"scream_a_1"})`
 
-b: Why are you hitting yourself, human? STOP HITTING YOURSELF.
+b: 为什么你要伤害你自己？**不要接着自残了！！**
 
 ```
 music(null);
@@ -1114,19 +1114,19 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"});`
 
-b: Hang on... "they" say that feelings are valid, that you should always accept your emotions.
+b: 等一下，既然“他们”说感受是客观存在的，那么你就应该接纳你的情绪。
 
 `bb({eyes:"suspect_r"});`
 
-b: But "they" also say emotions are irrational, that emotions are not to be trusted.
+b: 但“他们”也说情绪是不可理喻的，那么情绪就不该被信任。
 
 `bb({eyes:"angry"});`
 
-b: Oh my gosh, "they" have been lying to us this whole time!
+b: 我的天！“他们”原来他们一直都在骗我们！
 
 `bb({body:"scream_a_1"})`
 
-b: "THEY" FEED US CONTRADICTIONS TO MAKE US DEPENDENT ON THE SELF-HELP INDUSTRIAL COMPLEX
+b: “他们”才是矛盾的来源！是他们使我们依赖于他们的鸡汤产业！
 
 ```
 music(null);
@@ -1509,15 +1509,15 @@ h: **^我勒个操^那是什么鬼!**
 b: 对不起。我需要告诉你后果。
 
 {{if _.SPECIAL_ATTACK=="harm"}}
-h: 我都*看*见我的尸体了！我都*感觉到*死去是什么感受了！
+h: 我*看见*我的尸体了！我都*能感觉到*死去是什么感受了！
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="alone"}}
-h: I COULD *SEE* EVERYONE'S LOOK OF DISGUST. I COULD *HEAR* ALL THE THINGS THEY SAID.
+h: 我*看到*他们脸上的表情了！我都*能听到*他们说的一切！
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="bad"}}
-h: I COULD *HEAR* THE CRUNCHING OF RIBS. I COULD *TASTE* THE BLOOD IN THE AIR.
+h: 我*听到*轮胎摩擦的声音了！我都*能闻到*空气中的血味！
 {{/if}}
 
 b: 对不起，人类。
@@ -1550,15 +1550,15 @@ b: 揍他揍他揍他揍他揍他揍他揍他揍--
 
 # act2j_flight
 
-b: I *knew* all these partygoers were deeply messed up. They all dull their pain with horrible things!
+b: 我就知道聚会的这些人全都乱七八糟的，他们都在用这种可怕的东西麻醉自己！
 
 `bb({ body:"yell_1" });`
 
-b: And they're tricking you into doing the same thing! They're corrupting you! We need to get out!
+b: 并且他们在骗你做一样的事！他们在败坏你！你需要马上离开！
 
 `bb({ body:"final_1" });`
 
-b: GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OU--
+b: **快走快走快走快走快走快走快走快走快走快—**
 
 `_.a2_ending = "flight";`
 
@@ -1653,11 +1653,11 @@ r: 我们俩一起，可能能让负能量知道谁才是管事的！
 
 `publish("act2",["party_hong",36]);`
 
-h2: ok sorry i have to run
+h2: 没事我得走了
 
 `publish("act2",["party_hunter",16]);`
 
-r: ^Damn^ it. The animal won today, huh?
+r: ^妈的，^负能量还在对不对？
 
 `publish("act2",["party_hunter",15]);`
 
