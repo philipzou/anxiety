@@ -53,13 +53,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: 没错，但是他们只是按照要求优化标题而已，*真正的*问题在于那些仍然还会点进去看的人。
+s: 没错，但是编辑们只是按照要求优化标题而已，*真正的*问题在于那些仍然还会点进去看的人。
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: 怎么可能会有人转发这种可怕的东西，不怕别人也感觉很糟吗？
+s: 怎么可能会有人转发这种可怕的东西，不担心别人也感觉很糟吗？
 
 ```
 publish("act2",["party_hunter",1]);
@@ -78,7 +78,7 @@ a: 额，可不是嘛。
 publish("act2",["dee",3]);
 ```
 
-s: But did you *see* that "news story" going viral?
+s: 不过你们*看到*那个“非虚构写作”了吗？简直就是病毒式传播！
 
 ```
 publish("act2",["dee",2]);
@@ -93,7 +93,7 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Yeah, totally fake. Who would fall for that and retweet it?
+a: 对没错，根本就是假的。居然真的会有人相信并且还转发了。
 
 ```
 publish("act2",["dum",2]);
@@ -108,7 +108,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Seriously dude. Like, hello, open up Google and factcheck first?
+s: 说真的，各位，真的，就是，不会先去谷歌什么的查一下吗？
 
 ```
 publish("act2",["party_hunter",1]);
@@ -228,7 +228,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! What, did they think I was a *serial killer* or something? So paranoid.
+s: 就是啊！完全搞不懂！难道说，以为我是什么变态杀人狂之类的？想太多了吧？
 
 ```
 publish("act2",["party_hunter",1]);
@@ -248,7 +248,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: 就是啊！完全搞不懂，难不成还指望我填补它心灵上空白吗？
+s: 就是啊！完全搞不懂！难不成还指望我填补它心灵上空白吗？
 
 s: 那么矜持干什么？*开放*一点好不好！
 
@@ -270,7 +270,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! They weren't that hot, but they would have been a nice catch!
+s: 就是啊！完全搞不懂！它们虽然自己打扮得一般但是本来可以找到很不错的。
 
 ```
 publish("act2",["party_hunter",1]);
@@ -278,7 +278,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Gotta Catch 'Em All!™
+a: 将他们全部收服！™
 
 (#act2-preamble-end)
 
@@ -311,7 +311,7 @@ n: 第二轮 : *FIGHT!*
 
 `bb({eyes:"sad"})`
 
-b: 我们尴尬的杵在这里正在破坏聚会的气氛！
+b: 我们尴尬的杵在这里会破坏聚会的气氛！
 
 `bb({eyes:"shock", body:"two_up"})`
 
@@ -336,14 +336,14 @@ b: 他们比我们更有吸引力，所以我们只要*看*他们，那么—
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: WE'RE CREEPS
+b: **我们就是舔狗！**
 
 `bb({body:"normal"})`
 
-b: We're creepy, evil, bad bad bad terrible terrible perv--
+b: 我们就是那种，恶心，烦人，超超超超超讨厌的那种变态—
 
 ```
-_.a2_first_danger = 'perv';
+_.a2_first_danger = '变态';
 _.a2_attack_1 = "bad";
 ```
 
@@ -402,7 +402,7 @@ b: …
 
 `bb({eyes:"shock", mouth:"small_talk", body:"chest", MOUTH_LOCK:true})`
 
-b: *（大吸一口气（*
+b: *（大吸一口气）*
 
 `bb({mouth:"small_talk"})`
 
@@ -460,7 +460,7 @@ _.a2_hoodie_callback = "与世隔绝";
 
 `bb({eyes:"suspect", body:"two_up", mouth:"normal"})`
 
-b: DON'T BE A CREEP. IT'S AGAINST THE LAW!
+b: **别做舔狗了！舔狗是违法的！**
 
 `bb({eyes:"judge", body:"judge_1", mouth:"normal"})`
 
@@ -485,11 +485,11 @@ sfx("gravel");
 
 (...501)
 
-b: Creep Law, Section 74.5: (1) Any Person who checks out (a) those muscular shoulders (b) that bubble booty (2) shall be hereby known as
+b: 反变态法，第74条第五项：（1）存在下列行为的个人：（一）紧盯他人肉臂；（二）紧盯他人大胸。 （2）应当论为
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: "A BIG DISGUSTING TRASH PERVERT"
+b: **恶心的垃圾大变态”**
 
 ```
 _.a2_second_danger = 'law';
@@ -503,23 +503,23 @@ _.a2_hoodie_callback = "法律";
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: Actually, even if you find a noble purpose in life, you can *still* mess everything up!
+b: 实际上，就算是你有一个伟大的理想作为人生目标，你*仍然*会搞砸一切！
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: Alfred Nobel wanted world peace and for cultures to understand each other. So he decided to make travel easier.
+b: 阿尔弗雷德·诺贝尔希望世界和平，希望各种文化可以互相了解和包容，所以他决定发明一些东西来让交通更方便。
 
 `bb({eyes:"normal_r"})`
 
-b: So he needed a way to cheaply create train tunnels. So he invented a new material called "dynamite"...
+b: 之后，他发现它需要一种让修火车隧道更廉价的方法，于是他发明了一种叫做“炸药”的新材料。
 
 `bb({body:"one_up", eyes:"normal"})`
 
-b: which was used in World War I to KILL MILLIONS OF PEOPLE
+b: 结果这个东西在第一次世界大战中**杀死了成千上万人！**
 
 `bb({body:"two_up", eyes:"shock"})`
 
-b: IT'S THE BUTTERFLY EFFECT, HUMAN! HOW MANY PEOPLE ARE YOU ACCIDENTALLY KILLING RIGHT NOW
+b: **这是蝴蝶效应！人类！你知不知道就在现在有多少人已经被你无意间杀死了！**
 
 ```
 _.a2_second_danger = 'butterfly';
@@ -563,19 +563,19 @@ _.a2_hoodie_callback = "僵尸";
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: People are dying in famines and genocides *right now* and we're just partying!
+b: 地球上现在*每分每秒*都有人死于饥荒！这是种族灭绝！但是我们还在这里开派对！
 
 `bb({body:"point", eyes:"closed", mouth:"small"})`
 
-b: A wise person once said, "the only thing necessary for the triumph of evil is for good folks to do nothing."
+b: 有智者曾经说过：“邪恶能够胜利的唯一必要条件就是好人什么都不做！”
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: WE'RE DOING NOTHING.
+b: **说的就是我们现在！什么都没做！**
 
 `bb({mouth:"small"})`
 
-b: BY PARTYING, WE'RE HELPING *HITLER*.
+b: **我们继续开派对就等同于希特勒再世！**
 
 ```
 _.a2_second_danger = 'hitler';
@@ -715,13 +715,13 @@ sfx("gravel");
 
 (...501)
 
-b: The BIG DISGUSTING TRASH PERVERT shall be sentenced to 72 hours in one of those medieval public-humiliation devices
+b: **恶心的垃圾大变态**应当处以三天以上的游街示众。
 
-b: unless they're secretly *into* that sort of thing
+b: 除非他们已经自己开始这么做了
 
 `bb({body:"scream_a_1"})`
 
-b: because they're a BIG DISGUSTING TRASH PERVERT
+b: 因为他们本来就是**恶心的超级大变态**！！
 
 `_.a2_attack_3 = "bad";`
 
@@ -733,19 +733,19 @@ b: because they're a BIG DISGUSTING TRASH PERVERT
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: BUTTERFLY EFFECT! You're using a non-biodegradable plastic cup?
+b: 接着说**蝴蝶效应**！你现在用的是不可降解的塑料杯对吧？
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: BAM, A LANDFILL LEAKS POISON AND KILLS A KID
+b: **醒醒！垃圾填埋的渗透液正在污染湖泊并杀死当地的孩子！**
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: You're sweating and your heart's pounding?
+b: 所以你现在才满头大汗感到心虚对吗？
 
 `bb({body:"scream_a_1"})`
 
-b: BAM, YOU BANKRUPT OUR HEALTHCARE SYSTEM AND MILLIONS DIE
+b: **小心点！为了救你我们的医保资金马上就要见底了！医疗体系因为你崩溃了！**
 
 `_.a2_attack_3 = "bad";`
 
@@ -757,15 +757,15 @@ b: BAM, YOU BANKRUPT OUR HEALTHCARE SYSTEM AND MILLIONS DIE
 
 `bb({body:"normal", mouth:"small", eyes:"angry"})`
 
-b: These pleasure-zombies will stumble towards you mumbling,
+b: 这些快乐的僵尸会找上你缠上你！
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
-b: LIIIIIKES. LIIIIIIIIIIKES.
+b: **点个赞！帮我点个赞！**
 
 `bb({body:"scream_a_1"})`
 
-b: Then they'll BITE YOU and turn you into a BRAINLESS BRO and/or THOUGHTLESS THOT!
+b: 只要你**点**了那他们就把你变成了跟他们一样**无脑无知无可救药**的家伙！
 
 `_.a2_attack_3 = "bad";`
 
@@ -777,15 +777,15 @@ b: Then they'll BITE YOU and turn you into a BRAINLESS BRO and/or THOUGHTLESS TH
 
 `bb({body:"scream_a_1"})`
 
-b: THE NAZIS ARE GOOSE-STEPPING BACK ON THE STREETS RIGHT NOW
+b: **纳粹正在迈着广场步回到街道上！！**
 
 `bb({body:"one_up", mouth:"smile", eyes:"happy"})`
 
-b: Saying, *good thing those 'good folks' slacked off with stuff like 'relaxing' and 'self-care'!*
+b: 齐声大喊：*我们的敌人沉迷享受放松纲纪废弛*
 
 `bb({body:"point", mouth:"smile", eyes:"happy_r"})`
 
-b: *Now our plans can go fourth, reich on schedule!*
+b: *我们的使命必将稳步前进不可阻挡*
 
 `_.a2_attack_3 = "bad";`
 
@@ -835,19 +835,19 @@ b: 啊啊啊我们整个都坏掉了！坏的透透-
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: What if we're just *fundamentally rotten?*
+b: 要是我们*本质上就已经烂了*怎么办？
 
 `bb({body:"one_up", eyes:"sad"})`
 
-b: Others have an inner drive to do goodness, but we only do "good" out of guilt or shame, if at all.
+b: 其他人会发自真心地做善事，而我们只能靠偶然出现的羞耻心做那么一丢丢*好事*。
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: What if it's in our nature to hurt others? What if we can't be anything *other* than a burden to those close to us?
+b: 我们天生就会伤害别人，除了增加亲人的负担之外*什么都做不了*。
 
 `bb({body:"scream_a_1"})`
 
-b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
+b: **我们整个都是坏掉的！本质就是坏—**
 
 `_.a2_attack_3 = "bad";`
 
@@ -857,15 +857,15 @@ b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: I'm not being irrational. People *do* drug punch bowls. That is an actual thing that actually happens.
+b: 不是我不讲理，是确实有人会在被子里下药，每天都有这种事情发生。
 
 `bb({eyes:"suspect"})`
 
-b: Human, does your head hurt? Are your limbs limp? I think we're dying.
+b: 人类，你觉得现在头疼吗，胳膊腿还听话吗？我们是不是快要死了！
 
 `bb({body:"scream_a_1"})`
 
-b: AHHH WE'RE DYING! WE'RE DYING WE'RE DYING WE'RE DYI--
+b: **啊啊啊啊我们马上就要死了！！我们马上就死—**
 
 `_.a2_attack_3 = "harm";`
 
@@ -1641,11 +1641,11 @@ publish("act2",["party_hong",36]);
 
 h2: 再见, ciao, adios, au revoir
 
-r: 你今天可能负能量暂时赢了，不过记得下次再来，我会给你准备更猛的哦！
+r: 看来今天是你心里的那个猛兽占了上风，下次我可以给你调点更猛的，不过记得回来哦！
 
 h2: sayōnara, auf wiedersehen,bye,shalom
 
-r: 我们俩一起，可能能让负能量知道谁才是管事的！
+r: 咱们一起，肯定能让它知道谁才是管事的！
 
 (#act2k_end)
 
@@ -1661,15 +1661,15 @@ r: ^妈的，^负能量还在对不对？
 
 `publish("act2",["party_hunter",15]);`
 
-h2: no no, just, uh, gotta run a marathon. gotta go fast.
+h2: 不不是，就，额，我只是要去慢跑了，非常快的那种慢跑。
 
 `publish("act2",["party_hunter",19]);`
 
-r: Come to my party next weekend, cutie. I'll mix something even stronger for you.
+r: Come to my party next weekend, cutie. I'll mix something even stronger for you.下周末记得再来，小可爱，我会给你调点更猛的哦~
 
-h2: ok thanks gonna run run run run run
+h2: 谢了谢了我得溜了
 
-r: You and me, kid, we'll show that beast who's boss!
+r: 咱们一起，肯定能让它知道谁才是管事的！
 
 (#act2k_end)
 
