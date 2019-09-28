@@ -299,7 +299,7 @@ publish("hp_show");
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-n: 第 二 轮 : **FIGHT!**
+n: 第 二 轮 : *FIGHT!*
 
 [他们全都讨厌我们！](#act2a_social)
 
