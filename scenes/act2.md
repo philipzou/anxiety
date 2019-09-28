@@ -30,7 +30,7 @@ publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: 额...你们好啊...这句话用来测试：*斜体*，**加粗**，***斜粗***，等的显示效果，如果你看到这句话请前往github提交pr删除这句话。
+h2: 额...你们好啊...
 
 ```
 publish("act2",["party_hunter",1]);
