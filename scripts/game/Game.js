@@ -526,7 +526,7 @@ Game.executeText = function(line){
 					// span.innerHTML = isItalicized ? "<i>"+chr+"</i>" : chr; <- old code
 					span.innerHTML = chr;
 					if(isItalicized) span.innerHTML ="<i>"+span.innerHTML+"</i>"
-					if(isBolded) span.innerHTML ="<b>"+span.innerHTML+"</b>"
+					if(isBolded) span.innerHTML ="<b style=\"font-weight: 600;\">"+span.innerHTML+"</b>" 
 				}
 				span.style.opacity = 0;
 				div.appendChild(span);
@@ -579,7 +579,7 @@ Game.executeText = function(line){
 				// Bigger interval
 				if(i!=dialogue.length-1){ // NOT last
 					if(chr=="."  || chr=="。"){
-						if(dialogue[i+1]=="\""){ // UNLESS next one's a punctuation!
+						if(dialogue[i+1]=="\"" || dialogue[i+1]=="“" || dialogue[i+1]=="”"){ // UNLESS next one's a punctuation!
 							interval += 0;
 						}else{
 							interval += SPEED*10;
