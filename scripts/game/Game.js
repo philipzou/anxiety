@@ -545,19 +545,19 @@ Game.executeText = function(line){
 
 				// Bigger interval
 				if(i!=dialogue.length-1){ // NOT last
-					if(chr=="."){
+					if(chr=="."  || chr=="。"){
 						if(dialogue[i+1]=="\""){ // UNLESS next one's a punctuation!
 							interval += 0;
 						}else{
 							interval += SPEED*10;
 						}
-					}else if(chr=="?" || chr=="!"){ // gap unless next one's ALSO punctuation.
+					}else if(chr=="?" || chr=="!"|| chr=="？" || chr=="！"){ // gap unless next one's ALSO punctuation.
 						if(dialogue[i+1]==" "){ // next one's a space? gap!
 							interval += SPEED*10;
 						}else{ // if not, no!
 							interval += SPEED;
 						}
-					}else if(chr=="," || chr==":"){
+					}else if(chr=="," || chr==":" || chr=="，" || chr=="："){
 						interval += SPEED*5;
 					}else{
 						interval += SPEED;
@@ -646,8 +646,8 @@ Game.executeText = function(line){
 				var chr = word.slice(-1);
 				var isIcon = (word[0]=="#" && chr=="#");
 				if(chr=="*") chr = word[word.length-2]; // coz emphasis
-				if(chr=="," || chr==":") interval += SPEED*5;
-				if(chr=="." || chr=="?" || chr=="!") interval += SPEED*10;
+				if(chr=="," || chr==":" || chr=="，" || chr=="：") interval += SPEED*5;
+				if(chr=="." || chr=="?" || chr=="!" || chr=="。" || chr=="？" || chr=="！") interval += SPEED*10;
 				if(word.slice(-3)=="...") interval += SPEED*15;
 
 				// Oh, was it an ICON?
