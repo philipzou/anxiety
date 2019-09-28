@@ -488,7 +488,7 @@ Game.executeText = function(line){
 
 				chr = dialogue[i];
 
-				if(dialogue[i] == "*" && dialogue[i-1] == "*" && dialogue[i-2] == "*"){
+				if(dialogue[i] == "*" && dialogue[i-1] == "*" && dialogue[i-2] == "*" && dialogue[i+1] != "*"){
 					if(isItalicized && isBolded){ 	//end part of *** mark
 						isBolded = false;
 						isItalicized = false;
@@ -497,7 +497,7 @@ Game.executeText = function(line){
 						isItalicized = true;
 					}
 				}else{
-					if(dialogue[i] == "*" && dialogue[i-1] == "*"){
+					if(dialogue[i] == "*" && dialogue[i-1] == "*" && dialogue[i+1] != "*"){
 						if(!isItalicized && isBolded){	 //end part of ** mark
 							isBolded = false;
 							isItalicized = false;
@@ -506,7 +506,7 @@ Game.executeText = function(line){
 							isItalicized = false;
 						}
 					}else{
-						if (dialogue[i] == "*") {
+						if (dialogue[i] == "*" && dialogue[i+1] != "*") {
 							if(isItalicized && !isBolded){ //end part of * mark
 								isBolded = false;
 								isItalicized = false;
