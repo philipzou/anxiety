@@ -44,7 +44,7 @@ publish("act3",["roofhunter",8]);
 publish("act3",["roofhong",5]);
 ```
 
-r: 你这让我想起我小时候，也被脑子里的那个怪兽折磨的时候。
+r: 你让我想起我小时候，也被脑子里的那个怪兽折磨的时候。
 
 ```
 publish("act3",["roofhunter",9]);
@@ -242,15 +242,15 @@ publish("hp_show");
 
 b: 别别别别别
 
-n: 这一章 有两个 不同的 结局，其中一个 会 *非常糟*。
+n: 这一章有两个不同的结局， 其中一个会 *非常糟*。
 
 b: **别别别别别别别别别别别别**
 
-n: *小心决策，保护你的人类.*
+n: *小心决策， 保护你的人类.*
 
 `bb({ eyes:"oh_crap", mouth:"normal_talk", MOUTH_LOCK:true });`
 
-b: **啊啊啊啊啊啊啊啊啊啊啊啊啊**
+b: **啊啊啊啊啊啊啊啊啊啊啊啊**
 
 `bb({ mouth:"normal" });`
 
@@ -261,7 +261,7 @@ Game.clearText();
 bb({ eyes:"start" });
 ```
 
-[你真的可能会**死**！人类！](#act3a_harm) `Game.OVERRIDE_CHOICE_LINE=true`
+[你真的可能会_死_！人类！](#act3a_harm) `Game.OVERRIDE_CHOICE_LINE=true`
 
 [这就是自残！超蠢的！](#act3a_bad) `Game.OVERRIDE_CHOICE_LINE=true`
 
