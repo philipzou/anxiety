@@ -30,14 +30,14 @@ publish("act3",["roofhunter",2]);
 publish("act3",["roofhong",2]);
 ```
 
-r: 你懂得，小孩…
+r: 你懂得，小孩...
 
 ```
 publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",6]);
 ```
 
-h2: 尤其是…上头的时候…左右杏核体那一块…
+h2: 尤其是...上头的时候...左右杏核体那一块...
 
 ```
 publish("act3",["roofhunter",8]);
@@ -51,13 +51,13 @@ publish("act3",["roofhunter",9]);
 publish("act3",["roofhong",2]);
 ```
 
-r: 我很感激我可以把经验传授给你，尤其是能帮你干掉你脑子里的那个，就，当时和我一样的那种…
+r: 我很感激我可以把经验传授给你，尤其是能帮你干掉你脑子里的那个，就，当时和我一样的那种...
 
 ```
 publish("act3",["roofhunter",2]);
 ```
 
-r: 啊对了，马上告诉我，真心话还是大—
+r: 啊对了，马上告诉我，真心话还是大--
 
 ```
 publish("act3",["roofhunter",3]);
@@ -121,7 +121,7 @@ r: 脑子里的怪兽要回来了对不对？
 publish("act3",["roofhunter",23]);
 ```
 
-r: *别别别那个太危险了千万别—*
+r: *别别别那个太危险了千万别*--
 
 ```
 publish("act3",["roofhunter",22]);
@@ -140,7 +140,7 @@ publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",13]);
 ```
 
-h2: 呃，但是吧，就是…我有点害怕……
+h2: 呃，但是吧，就是...我有点害怕......
 
 ```
 publish("act3",["roofhunter",5]);
@@ -244,7 +244,7 @@ b: 别别别别别
 
 n: 这一章 有两个 不同的 结局，其中一个 会 *非常糟*。
 
-b: **别别别别别别别别别别别别别别别**
+b: **别别别别别别别别别别别别**
 
 n: *小心决策，保护你的人类.*
 
@@ -271,7 +271,7 @@ bb({ eyes:"start" });
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: **你真—**
+b: **你真**--
 
 (#act3a_after)
 
@@ -279,7 +279,7 @@ b: **你真—**
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: **那些—**
+b: **那些**--
 
 (#act3a_after)
 
@@ -287,7 +287,7 @@ b: **那些—**
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: **这就—**
+b: **这就**--
 
 (#act3a_after)
 
@@ -356,7 +356,7 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 h: 对，包括这一招。
 
-b: 人类…求求你…
+b: 人类...求求你...
 
 `hong({ eyes:"look_right" });`
 
@@ -523,7 +523,7 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 `bb({ eyes:"sad" });`
 
-b: 求你了千万别…
+b: 求你了千万别...
 
 h: 你的血条看来已经见底了，大狼。
 
@@ -628,13 +628,13 @@ h:我们这个时代的人都认为，消极情绪是不好的！
 
 h: 这就是他们所说的*负能量*！
 
-b: 人类……求你了……
+b: 人类......求你了......
 
 `hong({ eyes:"normal" });`
 
 h: 我之前说过，我不想再这样痛苦下去了。
 
-h: 我现在做到了，我现在既不焦虑也不痛苦…
+h: 我现在做到了，我现在既不焦虑也不痛苦...
 
 h: 我什么都感觉不到。
 
