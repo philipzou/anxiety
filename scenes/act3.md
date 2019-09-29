@@ -242,7 +242,7 @@ publish("hp_show");
 
 b: 别别别别别
 
-n: 这一章有两个不同的结局，其中一个会*非常糟*
+n: 这一章 有两个 不同的 结局， 其中一个 会 *非常糟*
 
 b: **别别别别别别别别别别别别别别别**
 
@@ -360,7 +360,7 @@ b: 人类…求求你…
 
 `hong({ eyes:"look_right" });`
 
-h: 哦*很抱歉*我试过的自我疗法全都没用。
+h: 哦*很抱歉*我的大救星拒绝我自己发现的解决办法。
 
 h: 但是你^他妈的^看好了，他们*全都*有办法让你^他妈的^闭嘴。
 
@@ -382,9 +382,9 @@ h: 所以，我要投入那个泳池。
 
 [你喝醉了**那是六层楼下面**。](#act3_bad_1_harm)
 
-[所以你想说的就是这些？](#act3_bad_1_insult) `bb({eyes:"angry"});`
+[所以你现在同意我了？](#act3_bad_1_insult) `bb({eyes:"angry"});`
 
-[好吧我承认我搞砸了。](#act3_good_1) `bb({mouth:"sorry", eyes:"sorry_down"});`
+[ 好好好我承认我搞砸了。](#act3_good_1) `bb({mouth:"sorry", eyes:"sorry_down"});`
 
 # act3_bad_1_harm
 
@@ -414,13 +414,13 @@ h: 我在B站看过有战斗民族的人试过了。
 
 `hong({ eyes:"look_right" });`
 
-h: I- Excuse me, the *thanks?*
+h: 我- 我同意你什么了？
 
 `bb({ eyes:"angry" });`
 
-b: This is exactly why I *exist!* Because humans can't be trusted to protect themselves!
+b: 同意你的拒绝！这就是为什么我*能够存在*！因为根本不能去相信人类有能力去保护自己！
 
-b: I've been trying to protect your stupid butt all my life and now you're just going t--
+b: 这辈子我就做了一件事情那就是让你拒绝危险！这样我才能保护你但是现在你--
 
 ```
 hong({body:"drink"});
@@ -442,22 +442,22 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 `hong({ body:"laugh_1" })``
 
-h: heh.
+h: 呵
 
 `hong({ body:"laugh_2" })``
 
-h: hahahaha
+h: 呵呵哈哈哈
 
 `hong({ body:"laugh_3" })``
 
-h: HAHAHAHAHAHA
+h: **啊哈哈哈哈哈哈哈哈**
 
 ```
 bb({ eyes:"sorry"});
 hong({ body:"yell_1", mouth:"yell", eyes:"blank" });
 ```
 
-h: Oh WOW is that the biggest *^fuck^ing* understatement of the century!
+h: Oh WOW is that the biggest *^fuck^ing* understatement of the century! 
 
 `hong({ body:"yell_2" });`
 
