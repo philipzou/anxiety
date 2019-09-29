@@ -51,7 +51,7 @@ publish("act3",["roofhunter",9]);
 publish("act3",["roofhong",2]);
 ```
 
-r: I'm so grateful I can pay it forward, and help you kill the beast the way I killed mine.我很感激我的经验能可以被传播，尤其是能帮你干掉你脑子里的那个，就，当时和我一样的那种…
+r: 我很感激我可以把经验传授给你，尤其是能帮你干掉你脑子里的那个，就，当时和我一样的那种…
 
 ```
 publish("act3",["roofhunter",2]);
@@ -242,11 +242,11 @@ publish("hp_show");
 
 b: 别别别别别
 
-n: 这一章 有两个 不同的 结局， 其中一个 会 *非常糟*
+n: 这一章 有两个 不同的 结局，其中一个 会 *非常糟*。
 
 b: **别别别别别别别别别别别别别别别**
 
-n: **小心决策，保护你的人类**
+n: *小心决策，保护你的人类.*
 
 `bb({ eyes:"oh_crap", mouth:"normal_talk", MOUTH_LOCK:true });`
 
@@ -254,7 +254,7 @@ b: **啊啊啊啊啊啊啊啊啊啊啊啊啊**
 
 `bb({ mouth:"normal" });`
 
-n: **祝你好运**
+n: *祝你好运*
 
 ```
 Game.clearText();
