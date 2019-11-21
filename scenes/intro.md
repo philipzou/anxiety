@@ -92,17 +92,17 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 
 `clearText()`
 
-n3: Welcome! This is less of a "game," more of an interactive story. Hope you like reading, sucka!
+n3: 欢迎! 与其说这里是个“游戏”，更像是个互动故事。但愿你喜欢读书咯！
 
-n3: So before we start, how would *you* like to read?
+n3: 那么在开始之前，*你* 喜欢什么样的阅读风格呢?
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3: Great! Note: you can always change options with the ⚙ icon below. Also, game auto-saves at each chapter!
+n3: 很好！ 注：你可以随时在下方的⚙按钮处更改设置。还有，游戏每章都会自动保存哦!
 
-n3: Now, let's begin our story...
+n3: 现在，开始我们的故事吧...
 
 `clearText()`
 
@@ -110,7 +110,7 @@ n3: Now, let's begin our story...
 
 `publish("intro-to-game-2")`
 
-n2: THIS IS A HUMAN
+n2: 这是一个人类
 
 (...600)
 
