@@ -215,39 +215,39 @@ hong({body:"hold", eyes:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: So what the ^hell^ was the moral of this story?
+h: 所以这个^鬼故事^ 有什么意义吗？
 
 `hong({body:"one_up", eyes:"annoyed"})`
 
-h: What did we even *learn*? I *was* being stupid, my "friends" *were* using me, and we almost frickin' *died*.
+h: 我们有学到什么*教训*吗？我犯了蠢，我的朋友们在利用我，而且最后还差点*挂掉*。
 
 `hong({body:"normal", eyes:"normal"})`
 
 {{if _.INJURED}}
-[Yeah, not to mention the hospital bill.](#act4a_bill)
+[更别说咱们的医院账单了。](#act4a_bill)
 {{/if}}
 
 {{if !_.INJURED}}
-[Yeah, not to mention the liver damage.](#act4a_liver)
+[更别说对你的肝伤的多严重了。](#act4a_liver)
 {{/if}}
 
-[Yeah, that *was* the worst-case scenario.](#act4a_worst)
+[是啊，那应该是最糟的情况了。](#act4a_worst)
 
-[Yeah, I was right.](#act4a_right)
+[我说的没错吧。](#act4a_right)
 
 # act4a_bill
 
 `hong({eyes:"annoyed_l", mouth:"narrow"});`
 
-h: Right. I don't think my insurance plan covers "being a dumb^ass^".
+h: 毕竟我可不记得我的保单里有保"当个^傻瓜^"这项。
 
 `hong({eyes:"annoyed", mouth:"normal"});`
 
-b: And yet... we survived!
+b: 但是... 我们活下来了啊！
 
 `hong({eyes:"normal"});`
 
-h: ?
+h: ？
 
 (#act4b)
 
@@ -255,11 +255,11 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: We definitely shaved a few years off our life expectancy...
+b: 虽然我们确实把预期寿命缩了好几年...
 
 `bb({eyes:"surprise"});`
 
-b: But at least we still *have* a life expectancy! We survived!
+b: 但是最起码我们还*有*啊！我们活下来了！
 
 ```
 hong({eyes:"surprise"});
@@ -274,13 +274,13 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: And yet...
+b: 最起码...
 
-h: Hm?
+h: 恩?
 
 `bb({eyes:"surprise"});`
 
-b: We survived!
+b: 我们活下来了啊！
 
 (#act4b)
 
@@ -288,19 +288,19 @@ b: We survived!
 
 `bb({eyes:"normal_d"});`
 
-b: But... you were right, too.
+b: 但是... 你说的确实是对的。
 
 `hong({eyes:"surprise"});`
 
-h: Hm?
+h: 恩?
 
 `bb({eyes:"normal"});`
 
-b: I *was* the wolf who cried wolf. So when *actual* danger came, you – justifiably – didn't believe me.
+b: 我天天喊狼来了，等到*真正的*危险到来了,你也– 理所当然的 – 不会信我。
 
 `bb({eyes:"surprise_r"});`
 
-b: And yet, we survived!
+b: 但即使这样，我们也活下来了！
 
 (#act4b)
 
@@ -311,16 +311,16 @@ bb({eyes:"normal", mouth:"normal"});
 hong({eyes:"normal", mouth:"normal"});
 ```
 
-b: Despite everything, we're still here.
+b: 无论如何，我们都还在这里。
 
 `hong({eyes:"suspect"});`
 
 {{if _.INJURED}}
-h: You seem pretty calm considering we just had a near-death experience.
+h: 在我们都差点送命的情况下你看起来倒是挺淡定的嘛。
 {{/if}}
 
 {{if !_.INJURED}}
-h: You seem pretty calm considering we just had a *near*-near-death experience.
+h: 在我们都*差点就*差点送命的情况下你看起来倒是挺淡定的嘛。
 {{/if}}
 
 ```
@@ -328,21 +328,21 @@ hong({eyes:"normal"});
 bb({eyes:"annoyed_d", mouth:"narrow"});
 ```
 
-b: Well, it makes everything else less scary in comparison. It's also got me thinking.
+b: 毕竟其他的事和这个一比都显得不那么吓人了。而且我也仔细想过了。
 
 `bb({eyes:"normal", mouth:"normal"});`
 
-b: If me fighting you sucks, because it doesn't protect you...
+b: 如果我打不过你，是因为我保护不了你...
 
-h: But me fighting you *also* sucks, because it just makes you yell louder...
+h: 如果我*也*打不过你，是因为那样只会让你更吵闹...
 
 `bb({eyes:"normal_r"})`
 
-b: Then maybe...
+b: 那么也许...
 
 `bb({eyes:"normal"})`
 
-h: Maybe we don't have to fight.
+h: 我们不必再争吵了.
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -381,15 +381,15 @@ music('dontfight',{fade:5, volume:0.6});
 bb({eyes:"annoyed_d"});
 ```
 
-b: I'm not a Big Bad Wolf. But I'm not a guard-wolf either.
+b: 我虽然不是什么大坏狼，但我也谈不上是个狼保镖.
 
 `bb({eyes:"sad_d"})`
 
-b: I'm a battered shelter dog.
+b: 我也就是个老收容犬。
 
 `bb({eyes:"sad"})`
 
-b: We've been through rough stuff. Maybe trauma or neglect. That's why I sometimes over-react and go:
+b: 我们一起经历过很多艰苦时刻，有创伤也有孤独。 这就是为什么我有时候会开始：
 
 ```
 sfx("yaps", {volume:0.6});
@@ -410,35 +410,35 @@ Game.FORCE_CANT_SKIP = false;
 bb({body:"normal", mouth:"scream", eyes:"scream_sad"});
 ```
 
-b: But I don't *want* to be a cowardly dog! I want to protect you! I want to be a good dog!
+b: 但我不*想* 懦弱！我想保护你！我想当一只好狗狗！
 
 `bb({eyes:"sad", mouth:"normal"});`
 
-b: Human... will you help tame this wolf?
+b: 人类... 你愿意驯服这只野兽吗？
 
 `hong({eyes:"sad"})`
 
-h: I... I'll try.
+h: 我... 我会试着做的。
 
 `hong({eyes:"normal_l", body:"chin", mouth:"narrow"})`
 
-h: Okay. Healthy relationship with emotions. Relationships need communication. So, let's communicate.
+h: 好。要和自己的情绪保持良好的关系需要沟通。 所以，我们来聊聊吧。
 
 `hong({eyes:"normal", body:"hands_1", mouth:"normal"})`
 
-h: The next five minutes are going to sound super cheesy, but let's fake it 'til we make it.
+h: 接下来的五分钟应该会听起来很陈词滥调，但是我们会坚持下去的。
 
 ```
 hong({body:"hands_2", mouth:"normal"});
 ```
 
-h: Dear inner wolf... how are *you* feeling?
+h: 亲爱的内心野狼... *你*现在想的是什么呢?
 
-n2: TOTAL FEARS USED:
+n2: 恐惧 使用 情况:
 
-n2: *HARMED* {{_.attack_harm_total}}, *UNLOVED* {{_.attack_alone_total}}, *BAD PERSON* {{_.attack_bad_total}}
+n2: *被攻击* {{_.attack_harm_total}}, *被冷落* {{_.attack_alone_total}}, *没人性* {{_.attack_bad_total}}
 
-n2: WHAT FEAR DO YOU WANT TO TALK ABOUT FIRST? (YOU CAN DO THE OTHERS LATER)
+n2: 你最想先谈谈哪种恐惧？ (之后可以再选择其他两种)
 
 ```
 _.a4_fears_discussed = 0;
@@ -447,11 +447,11 @@ hong({body:"normal"});
 bb({eyes:"normal"});
 ```
 
-[I'm scared we'll be harmed.](#act4_harm)
+[我害怕会被攻击。](#act4_harm)
 
-[I'm scared we'll be alone.](#act4_alone)
+[我害怕会被冷落。](#act4_alone)
 
-[I'm scared we're bad people.](#act4_bad)
+[我害怕我们没人性。](#act4_bad)
 
 # act4_harm
 
@@ -462,59 +462,59 @@ _.a4_fears_discussed += 1;
 
 `bb({eyes:"normal_d"})`
 
-b: I want to protect your need for physical safety,
+b: 我想保护你的人身安全。
 
 `bb({eyes:"sad_d"})`
 
-b: But the *whole world* seems so dangerous. So full of tragedy and evil.
+b: 但是*整个世界* 看起来都好危险，充斥的惨剧和阴谋。
 
 `bb({eyes:"sad"})`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: 但是，也不要光又*我* 来决定说什么了。 *你* 觉得呢，人类？
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: 还是，该你说了，人类。你觉得呢？
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: 你还有什么想法吗？
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[You're right. So let's protect ourselves.](#act4_harm_skills)
+[你说的对，我们需要自卫。](#act4_harm_skills)
 
-[Let's expose ourselves to *more* danger.](#act4_harm_exposure)
+[我们去接触*更多*的危险吧。](#act4_harm_exposure)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "physical safety";`
+[谢谢你。](#act4_thanks) `_.thanks_for = "physical safety";`
 
 # act4_harm_skills
 
 `bb({eyes:"look_down", body:"paw"})`
 
-b: But... how? I have fangs and claws, but I'm just a metaphor.
+b: 但是... 怎么做呢？ 我虽然有尖牙利爪，但我也只是一个你的幻象啊。
 
 ```
 bb({ body:"normal", eyes:"normal" });
 hong({ body:"one_up", eyes:"surprise" });
 ```
 
-h: We could learn self-defense? Join a community that protects each other? Improve our general health & personal boundaries?
+h: 我们可以学学自卫术？加入互相保护的组织？ 或者锻炼身体，武装自己？
 
 ```
 bb({ eyes:"annoyed_r" });
 hong({ body:"normal", eyes:"normal" });
 ```
 
-b: Maybe, but...
+b: 也许吧，但是...
 
-[Where do we even start?](#act4_harm_skills_start)
+[我们该从什么开始呢？](#act4_harm_skills_start)
 
-[What if they still don't work?](#act4_harm_skills_work)
+[如果这些做法都没用呢？](#act4_harm_skills_work)
 
-[What if we go overboard on "safety"?](#act4_harm_skills_overboard)
+[如果我们在“安全”上做过火了呢？](#act4_harm_skills_overboard)
 
 # act4_harm_skills_start
 
