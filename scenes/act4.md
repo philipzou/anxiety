@@ -520,34 +520,34 @@ b: 也许吧，但是...
 
 `bb({ eyes:"sad_d" })`
 
-b: There's so much to do, so much we need to fix about ourselves. What do we even *begin* with?
+b: 要自我改善的话有那么多事要做， 我们应该从哪里*开始*啊？
 
 `hong({ body:"shrug", eyes:"surprise" })`
 
-h: We're beginning right now.
+h: 我们已经开始了啊。
 
 `bb({ eyes:"normal", mouth:"narrow" })`
 
-b: Eh?
+b: 啊？
 
 ```
 bb({ body:"normal", mouth:"normal" });
 hong({ body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: We're practicing good communication right now. Which will help us detect danger better, with fewer false positives,
+h: 我们已经在练习怎样沟通了，这样之后就能更少的误判危险情况了。
 
 `hong({ eyes:"surprise" });`
 
-h: And *that* will help protect us from harm!
+h: 而*这*就会保护我们远离伤害了。
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Therefore: this *is* self-defense training.
+h: 因此，*这*就是自卫训练啊。
 
 `bb({ eyes:"normal_r" })`
 
-b: Huh. I was expecting more of this:
+b: 好吧，我还以为会有什么更有意思的事。
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -567,26 +567,26 @@ sfx("hiya");
 
 `bb({ eyes:"normal" });`
 
-h: True, there's no way to 100% protect ourselves...
+h: 确实，没有什么办法能做到100%的自卫...
 
 `hong({ body:"one_up" });`
 
-h: But even a 1% improvement is still worth something, right?
+h: 但即便是1%的进步也是值得的，不是吗？
 
 ```
 bb({ eyes:"annoyed" });
 hong({ normal:"one_up" });
 ```
 
-b: You're seeing the glass as not 99% empty, but 1% full?
+b: 你是说一个瓶子即使99%是空的也无所谓，因为还有1%的水在里面吗？
 
 `bb({ eyes:"normal" });`
 
-h: Which is still worth something if you're stranded in the desert.
+h: 毕竟当你在沙漠里快渴死的时候它还是能救你一命的。
 
 `bb({ eyes:"closed" });`
 
-b: Well. Bottoms up, then.
+b: 那就，一饮而尽吧。
 
 (#act4_something_else)
 
